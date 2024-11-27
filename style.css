@@ -92,3 +92,42 @@ header {
     height: 50px;
 }
 
+@media (max-width: 768px) {
+        .top-bar {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .menu ul {
+            flex-direction: column;
+             gap: 10px;
+        }
+    
+        .menu ul li {
+             margin-right: 0;
+        }
+    
+        .overlay h1 {
+             font-size: 32px;
+        }
+    
+        .brands img {
+            height: 40px;
+            margin: 5px;
+       }
+    }
+    
+
+@media (min-width: 768px) and (max-width: 1024px) {
+        .menu ul {
+            gap: 10px;
+        }
+    
+        .overlay h1 {
+            font-size: 40px;
+        }
+    
+        .brands img {
+            height: 45px;
+        }
+    }
